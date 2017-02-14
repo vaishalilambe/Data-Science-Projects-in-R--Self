@@ -1,7 +1,7 @@
 ### Existing local data
-mydata1 <- read.csv("student-mat.csv",sep=";",header=TRUE)
+mydata1 <- read.csv("C:/Users/Admin/Documents/GitHub/Data-Analysis-Using-R_Self/Data_Wrangling/student-mat.csv",sep=";",header=TRUE)
 head(mydata1)
-mydata2 <- read.table("student-mat.csv",sep=";",header=TRUE)
+mydata2 <- read.table("C:/Users/Admin/Documents/GitHub/Data-Analysis-Using-R_Self/Data_Wrangling/student-mat.csv",sep=";",header=TRUE)
 head(mydata2)
 
 

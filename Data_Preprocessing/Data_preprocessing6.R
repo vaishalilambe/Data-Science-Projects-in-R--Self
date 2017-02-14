@@ -24,6 +24,8 @@ myResults <- ddply(companiesData, 'company', transform,
 myResults
 ### Using dplyr to see the highest margin of data
 ### First creating two columns of max and min of marging
+install.packages("dplyr")
+library(dplyr)
 myresults <- companiesData %>% group_by(company) %>%    
   mutate(highestMargin = max(margin), lowestMargin = min(margin))
 myresults

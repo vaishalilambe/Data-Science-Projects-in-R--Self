@@ -41,3 +41,4 @@ head(select(iris, Petal.Width, Species))
 
 ### Chaining operation
 head(iris %>% filter(Sepal.Length>4.5) %>% select(Petal.Width, Species))
+
